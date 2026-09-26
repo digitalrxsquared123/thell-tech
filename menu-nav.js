@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var homeLinks = document.querySelectorAll('#mainnav .menu-item-home > a');
+  var homeLinks = document.querySelectorAll('#mainnav .menu-item a');
   var currentHash = window.location.hash || '';
 
   homeLinks.forEach(function (link) {
